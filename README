@@ -3,4 +3,9 @@ Odoo
 
 the repo hosts Dockerfile to build and run images for odoo ERP
 
+Credits
+==================
+
+Special thx to equitania for publishing a debian based dockerfile
+
 WIP
