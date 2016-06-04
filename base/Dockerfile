@@ -1,9 +1,11 @@
-FROM debian:jessie
-MAINTAINER Equitania Software GmbH <info@myodoo.de>
+# Thx to Equitania Software GmbH <info@myodoo.de> for publishing this file
+# we adjusted it for our environmant and usage
+FROM datenbetrieb/debian:jessie
+MAINTAINER datenbetrieb technologie UGh <info@datenbetrieb.de>
 # Version 1.0.2
 # Date 14.03.2016
 
-CMD "echo" "MyOdoo build will start now.."
+CMD "echo" "Building box for odoo now.."
 
 # Install basics
 RUN set -x; \
